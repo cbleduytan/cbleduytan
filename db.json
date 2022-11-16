@@ -1,0 +1,111 @@
+{
+  "productList": [
+    {
+      "productName": "Onion",
+      "category": "Vegetable",
+      "date": "2022-11-14T17:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 120,
+      "comment": "This is a second hand",
+      "id": 7
+    },
+    {
+      "productName": "TV",
+      "category": "Electric",
+      "date": "2022-11-14T17:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 500,
+      "comment": "This is a second hand",
+      "id": 11
+    },
+    {
+      "productName": "water spinach",
+      "category": "Vegetable",
+      "date": "2022-11-14T17:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 220,
+      "comment": "This is a second hand",
+      "id": 12
+    },
+    {
+      "productName": "Cabbage",
+      "category": "Vegetable",
+      "date": "2022-11-14T17:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 330,
+      "comment": "This is a second hand",
+      "id": 14
+    },
+    {
+      "productName": "Fan",
+      "category": "Electric",
+      "date": "2022-11-14T17:00:00.000Z",
+      "freshness": "New Brand",
+      "price": 400,
+      "comment": "This is a new brand",
+      "id": 15
+    },
+    {
+      "productName": "fridge",
+      "category": "Electric",
+      "date": "2022-11-14T17:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 320,
+      "comment": "This is a second hand",
+      "id": 16
+    },
+    {
+      "productName": "Carrot",
+      "category": "Vegetable",
+      "date": "2022-11-14T17:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 320,
+      "comment": "This is a second hand",
+      "id": 17
+    },
+    {
+      "productName": "Carrot",
+      "category": "Vegetable",
+      "date": "2022-11-14T17:00:00.000Z",
+      "freshness": "Second Hand",
+      "price": 320,
+      "comment": "This is a second hand",
+      "id": 18
+    },
+    {
+      "productName": "Lychee",
+      "category": "Fruits",
+      "date": "2022-11-06T17:00:00.000Z",
+      "freshness": "New Brand",
+      "price": 100,
+      "comment": "This is a new brand",
+      "id": 19
+    }
+  ],
+  "signupUser": [
+    {
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 1
+    },
+    {
+      "fullName": "a",
+      "mobile": "123",
+      "email": "a",
+      "password": "11",
+      "id": 2
+    },
+    {
+      "fullName": "a",
+      "mobile": "123",
+      "email": "a@gmail.com",
+      "password": "22222",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

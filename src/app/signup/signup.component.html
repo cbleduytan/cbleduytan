@@ -1,0 +1,35 @@
+<mat-card class="card">
+  <h1>Signup</h1>
+  <h4>Please enter email & password</h4>
+  <div mat-dialog-content>
+    <form [formGroup]="signupForm">
+      <mat-form-field appearance="outline">
+        <mat-label>Full Name</mat-label>
+        <input formControlName="fullName" matInput placeholder="Full name">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Mobile Number</mat-label>
+        <input formControlName="mobile" matInput placeholder="Mobile Number">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Email Address</mat-label>
+        <input formControlName="email" matInput placeholder="Email address">
+        <div id="emailHelp">We'll never share your email with anyone  else</div>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <button  mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button>
+        <input formControlName="password" matInput placeholder="Password">
+      </mat-form-field>
+    </form>
+  </div>
+  <div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button	color="warn" (click)="signUp()">Signup</button>
+  </div>
+  <div class="footer">
+    <a routerLink="/login">Already registered. Click to login</a>
+  </div>
+</mat-card>
+
+
